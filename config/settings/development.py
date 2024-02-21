@@ -27,6 +27,7 @@ AUTH_PASSWORD_VALIDATORS = []
 def show_toolbar(request):
     return True
 
+ALLOWED_HOSTS = ['ec2-44-211-38-42.compute-1.amazonaws.com']
 
 DEBUG_TOOLBAR_CONFIG = {
     "SHOW_TOOLBAR_CALLBACK": show_toolbar,
